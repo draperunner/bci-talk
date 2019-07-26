@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="20" tileheight="20" backgroundcolor="#1ac9fe" nextobjectid="14">
- <tileset firstgid="1" name="tileset" tilewidth="20" tileheight="20">
-  <image source="../assets/finalTileset.png" width="300" height="60"/>
+<map version="1.2" tiledversion="1.2.0" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="20" tileheight="20" infinite="0" backgroundcolor="#1ac9fe" nextlayerid="3" nextobjectid="14">
+ <tileset firstgid="1" name="tileset" tilewidth="20" tileheight="20" tilecount="45" columns="15">
+  <image source="../imgs/finalTileset.png" width="300" height="60"/>
  </tileset>
- <layer name="Tile Layer 1" width="40" height="30">
+ <layer id="1" name="Tile Layer 1" width="40" height="30">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -37,7 +37,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
 </data>
  </layer>
- <objectgroup name="Object Layer 1">
+ <objectgroup id="2" name="Object Layer 1">
   <object id="10" gid="21" x="100" y="100" width="20" height="20"/>
   <object id="11" gid="22" x="200" y="260" width="20" height="20"/>
   <object id="12" gid="22" x="260" y="400" width="20" height="20"/>

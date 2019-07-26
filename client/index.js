@@ -1,1 +1,1 @@
-import './game/game.js'
+import './game/game'
